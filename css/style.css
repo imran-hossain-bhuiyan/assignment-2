@@ -363,6 +363,8 @@ footer .social_media i{
 ================================= */
 
 @media only screen and (max-width: 767px) {
+
+    /* --------header  part start */
     header .nav-bar h4{
         font-size: 18px;
     }
@@ -371,10 +373,17 @@ footer .social_media i{
             display: none;
     }
 
+    header{
+        margin: 20px 30px;
+    }
+
+    /* --------header  part end */
+
     /*-------- banner part start-----*/
 
     #banner-part{
         display: block;
+        margin: 20px 30px;
     }
 
     #banner-part .text h1{
@@ -382,9 +391,9 @@ footer .social_media i{
     }
 
     #banner-part .text p{
-        font-size: 16px;
+        ont-size: 16px;
         padding-bottom: 0px;
-        width: 300px;
+        width: 230px;
     }
 
     #banner-part .image{
@@ -411,6 +420,10 @@ footer .social_media i{
 
 
     /*-------- Collection part Start-----*/
+
+    #collection-part{
+        margin: 20px 30px;
+    }
 
     #collection-part .main{
         display: block;
@@ -444,6 +457,10 @@ footer .social_media i{
 
 
     /*-------- contact part Start-----*/
+
+    #contact-part{
+        margin: 20px 30px;
+    }
 
     #contact-part h2{
         font-size: 24px;
