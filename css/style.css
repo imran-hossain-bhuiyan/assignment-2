@@ -226,6 +226,7 @@ header .nav-bar ul li a{
     margin-right: 5px;
 }
 
+
 /* ================================
       Collection part End
 ================================= */
@@ -351,4 +352,148 @@ footer .social_media i{
 
 /* ================================
       Footer part End
+================================= */
+
+
+
+
+
+/* ================================
+      Mobile part Start
+================================= */
+
+@media only screen and (max-width: 767px) {
+    header .nav-bar h4{
+        text-align: center;
+        flex-wrap: nowrap;
+        font-size: 18px;
+    }
+
+    header .nav-bar .menu{
+            display: none;
+    }
+
+    /*-------- banner part start-----*/
+
+    #banner-part{
+        display: block;
+    }
+
+    #banner-part .text h1{
+        font-size: 30px;
+    }
+
+    #banner-part .text p{
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+
+    #banner-part .image{
+        margin-top: 40px;
+
+    }
+
+    #banner-part .text .button{
+        width: 110px;
+        padding: 8px 13px;
+    }
+    #banner-part .text .button a{
+        font-size: 14px;
+    }
+    #banner-part .text .button span{
+        font-size: 13px;
+    }
+
+    /*-------- banner part end-----*/
+
+
+    /*-------- Collection part Start-----*/
+
+    #collection-part .main{
+        display: block;
+    }
+
+    #collection-part .main .product{
+        margin: 20px 0;
+    }
+
+    #collection-part .main .product img{
+        width: 100%;
+    }
+
+    #collection-part .main .product h3{
+        font-size: 24px;
+    }
+
+    #collection-part .main .product h4{
+        font-size: 20px;
+    }
+
+    #collection-part .main .product .rating{
+        font-size: 10px;
+    }
+
+    #collection-part .main .product p{
+        font-size: 14px;
+    }
+
+    /*-------- Collection part end-----*/
+
+
+    /*-------- contact part Start-----*/
+
+    #contact-part h2{
+        font-size: 24px;
+    }
+
+    #contact-part .form_main{
+        display: block;
+    }
+
+    #contact-part .form_main input{
+        display: block;
+        margin: 8px 0;
+        width: 95%;
+    
+    }
+
+    #contact-part .button button{
+        padding: 8px 10px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /*-------- contact part end-----*/
+
+
+    /*-------- footer part start-----*/
+
+    footer{
+        padding: 10px 0;
+    }
+
+    footer h3{
+        font-size: 16px;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+
+    footer h6{
+        font-size: 11px;
+    }
+
+    footer .social_media i{
+        font-size: 18px;
+    }
+
+    /*-------- footer part end-----*/
+
+
+  }
+
+
+/* ================================
+      Mobile part End
 ================================= */
