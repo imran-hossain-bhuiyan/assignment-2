@@ -364,8 +364,6 @@ footer .social_media i{
 
 @media only screen and (max-width: 767px) {
     header .nav-bar h4{
-        text-align: center;
-        flex-wrap: nowrap;
         font-size: 18px;
     }
 
@@ -386,11 +384,16 @@ footer .social_media i{
     #banner-part .text p{
         font-size: 16px;
         padding-bottom: 0px;
+        width: 300px;
     }
 
     #banner-part .image{
         margin-top: 40px;
 
+    }
+
+    #banner-part .image img{
+        width: 100%;
     }
 
     #banner-part .text .button{
@@ -496,4 +499,112 @@ footer .social_media i{
 
 /* ================================
       Mobile part End
+================================= */
+
+
+
+/* ================================
+      Tab part Start
+================================= */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
+    header .nav-bar h4{
+        font-size: 25px;
+    }
+
+    header .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .nav-bar ul{
+        width: 300px;
+    }
+
+
+    /*-------- Collection part Start-----*/
+
+    #collection-part .main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+
+    #collection-part .main .product img{
+        width: 100%;
+    }
+
+    #collection-part .main .product h3{
+        font-size: 24px;
+    }
+
+    #collection-part .main .product h4{
+        font-size: 20px;
+    }
+
+    #collection-part .main .product .rating{
+        font-size: 10px;
+    }
+
+    #collection-part .main .product p{
+        font-size: 14px;
+    }
+
+    /*-------- Collection part end-----*/
+
+    /*-------- contact part Start-----*/
+
+    #contact-part h2{
+        font-size: 24px;
+    }
+
+    #contact-part .form_main{
+        display: block;
+    }
+
+    #contact-part .form_main input{
+        display: bock;
+        margin: 8px 0;
+        width: 97%;
+    
+    }
+
+    #contact-part .button button{
+        padding: 10px 12px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    /*-------- contact part end-----*/
+
+     /*-------- footer part start-----*/
+
+     footer{
+        padding: 25px 0;
+    }
+
+    footer h3{
+        font-size: 20px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+
+    footer h6{
+        font-size: 12px;
+    }
+
+    footer .social_media i{
+        font-size: 22px;
+    }
+
+    /*-------- footer part end-----*/
+
+
+}
+
+/* ================================
+      Tab part End
 ================================= */
